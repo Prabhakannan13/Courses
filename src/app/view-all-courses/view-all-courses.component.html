@@ -1,0 +1,63 @@
+<app-navbar></app-navbar>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+
+
+       
+
+<table class="table table-striped table-success">
+
+    <thead class="thread-success">
+
+      <tr>
+
+        <th scope="col"> course Title</th>
+
+        <th scope="col">course duration</th>
+
+        <th scope="col"> course description</th>
+
+       
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+     
+
+      <tr *ngFor="let i of viewcourse">
+
+       
+
+        <td>{{i.courseTitle}}</td>
+
+        <td>{{i.courseDuration}}</td>
+
+        <td>{{i.courseDescription}}</td>
+
+        <td>{{i.courseDate}}</td>
+
+        <td>{{i.courseVenue}}</td>
+
+      </tr>
+
+   
+
+     
+
+    </tbody>
+
+  </table>
+
+</div>
+
+</div>
+
+</div>
